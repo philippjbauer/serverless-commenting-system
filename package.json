@@ -1,0 +1,45 @@
+{
+  "name": "serverless-commenting-system",
+  "version": "0.1.0",
+  "description": "A Commenting System for Websites, based on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippjbauer/serverless-commenting-system.git"
+  },
+  "keywords": [
+    "AWS Lambda",
+    "Commenting System",
+    "Blog"
+  ],
+  "author": "Philipp Bauer <pbauer@clarityapps.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philippjbauer/serverless-commenting-system/issues"
+  },
+  "homepage": "https://github.com/philippjbauer/serverless-commenting-system#readme",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "serverless-http": "^1.6.0",
+    "source-map-support": "^0.5.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-source-map-support": "^2.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "jest": "^23.4.0",
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.25.6",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.16.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
